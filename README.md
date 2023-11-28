@@ -1,4 +1,4 @@
-# Solr-setup
+![image](https://github.com/Krishna4802/Solr-setup/assets/139359113/411bbbc3-4d31-4636-a711-28ac467b5aa9)# Solr-setup
 
 ## Basic installations :
 
@@ -61,6 +61,8 @@ Here all, collection-admin-read, config-read, core-admin-read needs to be enable
 ## Now ACL setup
 
     * cd zookeeper-3.4.6/bin
+    * ./zkServer.sh start /zookeeper-3.4.6/conf/zoo_sample.cfg   - to start zookeeper
+    * ./zkServer.sh status /zookeeper-3.4.6/conf/zoo.cfg  - to check status of zookeeper
     * ./zkCli.sh -server localhost:2181 - execute this command to get into zookeeper 
     
     inside Zookeeper terminal
