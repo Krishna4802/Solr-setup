@@ -38,7 +38,9 @@
 <img width="1293" alt="Pasted Graphic 1" src="https://github.com/Krishna4802/Solr-setup/assets/139359113/cd854a7e-6e13-406b-adcb-d2740463526e">
 
 
-### * Then go to “add role” column and create a new role  Here all, collection-admin-read, config-read, core-admin-read needs to be enabled to give the users only the read access 
+### * Then go to “add role” column and create a new role  
+
+Here all, collection-admin-read, config-read, core-admin-read needs to be enabled to give the users only the read access 
 
 <img width="1295" alt="Screenshot 2023-11-28 at 1 34 38 PM" src="https://github.com/Krishna4802/Solr-setup/assets/139359113/b74aeaaa-4d12-46f6-bbea-8f4a55b68caf">
 
