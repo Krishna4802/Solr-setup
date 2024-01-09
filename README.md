@@ -117,6 +117,12 @@ Here all, collection-admin-read, config-read, core-admin-read needs to be enable
       #metricsProvider.exportJvmInfo=true
 ***
 
+### Zookeeper Commands
+      /bin/zkServer.sh start
+      /bin/zkServer.sh status
+      /bin/zkServer.sh stop
+
+
 #### Change in solr  
 
 /solr-8.7.0/bin/solr.in.sh - ZK_HOST="172.17.0.6:2181,172.17.0.4:2181,172.17.0.5:2181" (As per the ip address of the zookeeper machines)
