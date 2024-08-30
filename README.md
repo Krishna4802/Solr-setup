@@ -118,9 +118,9 @@ Here all, collection-admin-read, config-read, core-admin-read needs to be enable
 ***
 
 ### Zookeeper Commands
-      /bin/zkServer.sh start
-      /bin/zkServer.sh status
-      /bin/zkServer.sh stop
+      bin/zkServer.sh start
+      bin/zkServer.sh status
+      bin/zkServer.sh stop
 
 
 #### Change in solr  
